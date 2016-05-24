@@ -1,0 +1,115 @@
+html{
+  background: #606c88;
+  background: radial-gradient(500px at 50% 50%, #606c88 0%, #3f4c6b 100%);
+  color: white;
+}
+
+#vigenere-container{
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.vigenere-header{
+  font-size: 45px;
+  padding: 15px 0px;
+}
+
+.vigenere-input label{
+  display: block;
+  font-size: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: lightgray;
+}
+
+.vigenere-input textarea{
+  width: 100%;
+  height: 100px;
+}
+
+.vigenere-button {
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.vigenere-button:hover{
+  background-color: gray;
+}
+
+.vigenere-frequencies{
+  padding-top: 35px;
+}
+
+.vigenere-frequency{
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+}
+
+.vigenere-frequency .bar{
+  width: 20px;
+  max-height: 300px;
+  background-color: #99DADC;
+}
+
+.vigenere-frequency .bar .letter-count{
+  display: none;
+  position: relative;
+  bottom: 25px;
+}
+
+.vigenere-frequency .bar:hover {
+  background-color: #63BABD;
+}
+
+.vigenere-frequency .bar:hover .letter-count{
+  display: block;
+}
+
+.vigenere-frequency .letter{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.vigenere-key-length {
+  padding: 40px 0px 20px 0px;
+  font-size: 24px;
+}
+
+.vigenere-coincidence {
+  width: 40px;
+  text-align: center;
+}
+
+#vigenere-coincidence-initial{
+  width: 100px;
+  font-weight: 500;
+  color: lightgray;
+  text-align: left;
+}
+
+.vigenere-coincidence .displacement {
+  font-weight: 500;
+}
+
+.vigenere-key{
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+.vigenere-key p.vigenere-key__val {
+  padding: 5px 0px;
+  margin: 5px 0px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}

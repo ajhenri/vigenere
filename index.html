@@ -1,0 +1,53 @@
+<!doctype html>
+
+<head>
+  <title>Vigenere Solver</title>
+  <link rel="stylesheet" type="text/css" href="vigenere.css">
+</head>
+
+<body>
+  <div id="vigenere-container">
+    <div class="vigenere-header">
+      Vigenere Cipher Solver
+    </div>
+    <div class="vigenere-input">
+      <label>Enter a cipher.</label>
+      <textarea id="cipher"></textarea>
+
+      <a class="vigenere-button">Decipher</a>
+    </div>
+    <div class="vigenere-frequencies" style="display: none;"></div>
+
+    <div class="vigenere-key-length" style="display: none;">
+      Key Length
+    </div>
+    <div class="vigenere-coincidences" style="display: none;">
+    </div>
+  </div>
+
+  <div class="vigenere-frequency" style="display: none;">
+    <div class="bar">
+      <div class="letter-count"></div>
+    </div>
+    <div class="letter">
+    </div>
+  </div>
+
+  <div class="vigenere-coincidence" style="display: none;">
+    <div class="displacement"></div>
+    <div class="coincidence"></div>
+  </div>
+
+  <div class="vigenere-key" style="display: none;">
+    <label>Key:</label>
+    <p class="vigenere-key__val"></p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js">
+  </script>
+  <script src="vigenere.js">
+  </script>
+</body>
+
+
+</html>
